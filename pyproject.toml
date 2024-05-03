@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "gisexploration-with-pysal"
+version = "0.1.0"
+description = ""
+authors = ["sameervk <sameervk.iitkgp@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pysal = "^24.1"
+numpy = "^1.26.4"
+matplotlib = "^3.8.4"
+pandas = "^2.2.2"
+seaborn = "^0.13.2"
+jupyterlab = "^4.1.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
